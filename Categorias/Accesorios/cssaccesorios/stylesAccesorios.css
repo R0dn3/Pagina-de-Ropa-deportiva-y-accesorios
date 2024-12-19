@@ -1,0 +1,160 @@
+/* Estilos generales */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('../imgaccesorios/FondoAccesorios.avif') no-repeat center center fixed;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    color: #0c0c0c;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 1000px;
+    list-style-type: none;
+}
+
+li {
+    margin: 10px;
+    flex: 1 1 30%;
+    /* Tres elementos por fila */
+    max-width: 30%;
+    box-sizing: border-box;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    /* Distribuye los elementos equitativamente */
+    padding: 0;
+    margin: 20px auto;
+    max-width: 1000px;
+    list-style-type: none;
+}
+
+li {
+    margin: 10px;
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    /* Evita que los elementos se estiren */
+    max-width: 200px;
+    /* Limita el ancho máximo de cada elemento */
+    text-align: center;
+    /* Centra el contenido horizontalmente */
+}
+
+
+a {
+    display: block;
+    color: #0a0a0a;
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover {
+    color: #307c56;
+}
+
+img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    border: 1px solid #ccc; /* Agrega un borde de 1px sólido de color gris claro */
+}
+
+img:hover {
+    transform: scale(1.10);
+}
+
+span {
+    display: block;
+    margin-top: 10px;
+    color: #f7f5f5;
+    font-weight: bold;
+    
+    /* Color del texto de la descripción */
+}
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 50px;
+    color: #f7f5f5;
+    font-weight: bold;
+}
+
+/* Estilos para las categorías */
+.categoria {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Tres elementos por fila */
+    gap: 20px; /* Espacio entre las categorías */
+    justify-items: center; /* Centrar horizontalmente */
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.categoria h3 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.categoria img {
+    width: 100%;
+    max-width: 300px; /* Ancho máximo de la imagen */
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+.precio {
+    color: #f7f6f6; /* Cambia a tu color preferido */
+    font-weight: bold; /* Opcional: hace el texto en negrita */
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #f4f7f5;
+    color: #333;
+    padding: 20px 0;
+    border-bottom: 1px solid #29856e; /* Agrega un borde inferior de 1px sólido de color gris claro */
+}
+
+.logo {
+    margin-left: 20px; /* Margen a la izquierda del logotipo */
+}
+
+h1 {
+    margin: 0; /* Eliminar el margen predeterminado del encabezado */
+}
+
+nav ul {
+    list-style-type: none; /* Quitar los estilos de la lista */
+    margin: 0; /* Eliminar los márgenes predeterminados */
+    padding: 0; /* Eliminar el relleno predeterminado */
+    display: flex; /* Mostrar los elementos en línea */
+}
+
+nav ul li {
+    margin-right: 20px; /* Espacio entre los elementos de la lista */
+}
+
+nav ul li a {
+    color: #333; /* Color del texto del enlace */
+    text-decoration: none; /* Quitar la subrayado del enlace */
+}

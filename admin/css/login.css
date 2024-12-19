@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:wght@400;500;600;700;800&display=swap');
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  font-family:'Poppins', sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('../images/fondo-inicio-sesion.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+}
+
+.container {
+  width: 380px;
+  margin: 50px auto;
+  padding: 20px;
+  float: right;
+  margin-right: 10%;
+  margin-top: 8%;
+  background-color: transparent;
+  border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  color: #fff;
+}
+
+
+input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  background: gray;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: black;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
